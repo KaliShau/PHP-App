@@ -38,7 +38,6 @@
   </aside>
   
   <main>
-  <h1>Posts</h1>
 
   <div class="posts">
     <?php 

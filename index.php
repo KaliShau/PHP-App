@@ -21,7 +21,6 @@
 <body class="bg-image">
     
     <!-- SignIn form -->
-     
     <h1>Форма входа</h1>
     <form action='./src/functions/signIn.php' method='POST'>
         <label>Логин</label>
