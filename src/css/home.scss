@@ -7,7 +7,7 @@ input {
 }
 
 body {
-  background-color: #1a1d1f;
+  background-color: #9d9d9d;
   color: #e0e0e0;
 
   font-size: 20px;
@@ -36,7 +36,7 @@ aside {
 
   font-weight: 700;
   font-size: 26px;
-  background-color: #2b3033;
+  background-color: #545454;
 
   height: 97.5vh;
   width: 200px;
@@ -47,14 +47,16 @@ aside {
   gap: 10px;
   top: 10px;
 
+  
   > a {
     width: 100%;
     text-align: center;
     padding: 6px 0px;
+    transition: all 300ms;
 
     &:hover {
-      color: #bbbbbb;
-      background-color: #202325;
+      transition: all 300ms;
+      background-color: #9d9d9d;
     }
   }
 
@@ -68,7 +70,7 @@ main {
   display: flex;
   flex-direction: column;
 
-  background-color: #2b3033;
+  background-color: #545454;
 
   padding: 10px;
   margin: 10px;
@@ -81,17 +83,7 @@ main {
 h1 {
   position: relative;
 
-  &::after {
-    content: '';
-    background-color: #bbbbbb;
 
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-
-    width: 100%;
-    height: 2px;
-  }
 }
 
 button {
@@ -115,13 +107,16 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #9d9d9d;
+  padding: 16px;
+  border-radius: 10px;
 
-  width: 800px;
+  width: 1400px;
 
   position: relative;
 
   > img {
-    width: 800px;
+    width: 1400px;
     border-radius: 10px;
   }
 
@@ -130,33 +125,24 @@ button {
     font-weight: 600;
   }
 
-  &::after {
-    content: '';
-    background-color: #bbbbbb;
 
-    position: absolute;
-    left: 0px;
-    bottom: -10px;
-
-    width: 100%;
-    height: 2px;
-  }
 }
 .posts {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
 }
 
 .data-user {
-  display: flex;
-  gap: 30px;
+  display: flex ;
+  flex-direction: column;
+  gap: 10px;
 
   > p {
-    background-color: #202325;
+    background-color: #9c9c9c;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
   }
 }
 
