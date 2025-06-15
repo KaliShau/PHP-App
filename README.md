@@ -9,5 +9,15 @@
 - **Язык программирования**: PHP
 - **База данных**: MySQL
 - **Фронтенд**: HTML, SCSS
-- **Веб-сервер**: Apache 
-- **Редактор кода**: Visual Studio Code 
+- **Веб-сервер**: Apache
+- **Редактор кода**: Visual Studio Code
+
+## Картинки 🖼️
+
+![Screenshot](./assets/sign-up.png)
+
+![Screenshot](./assets/profile.png)
+
+![Screenshot](./assets/posts.png)
+
+![Screenshot](./assets/create-post.png)

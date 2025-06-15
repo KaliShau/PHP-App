@@ -2,7 +2,7 @@
     session_start();
 
     if ($_SESSION['user']) {
-        header('Location: ./src/pages/home.php');
+        header('Location: ./src/pages/home/home.php');
       };
 ?>
 
@@ -16,13 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <title>PHP</title>
+    <title>Test PHP APP</title>
 </head>
 <body class="bg-image">
     
     <!-- SignIn form -->
+
+    <div class="glass">
+
     <h1>Форма входа</h1>
-    <form action='./src/functions/signIn.php' method='POST'>
+    <form action='./src/pages/sign-in/signIn.php' method='POST'>
         <label>Логин</label>
         <input name="login" type="text" placeholder="Введите логин">
 
@@ -30,7 +33,7 @@
         <input name="password" type="password" placeholder="Введите пароль">
         <button type="submit">Войти</button>
 
-        <a href="./src/pages/signUp.php">Переход к регистрации</a>
+        <a href="./src/pages/sign-up/signUp.ui.php">Переход к регистрации</a>
 
         <?php if ($_SESSION['error']) {
             echo '<p>'. $_SESSION['error'] .'</p>';
@@ -38,6 +41,8 @@
         } 
         ?>
     </form>
+
+    </div>
 
 </body>
 </html>
